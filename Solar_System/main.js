@@ -34,6 +34,7 @@ scene.background = cubeTextureLoader.load([
   starsTexture
 ]);
 
+
 const orbit = new OrbitControls(camera, renderer.domElement);
 camera.position.set(-90, 140, 140);
 orbit.update();
